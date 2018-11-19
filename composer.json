@@ -1,13 +1,13 @@
 {
     "name": "wujie/redis-client",
-    "description": "redis 链接",
+    "description": "PHP redis 链接 重试",
     "type": "library",
     "require": {
         "php": ">=7.1"
     },
-    "autoload":{
+    "autoload": {
         "psr-4": {
-            "wjredis\\": "src/"
+            "wjredis": "src/"
         }
     },
     "license": "MIT",
@@ -17,5 +17,5 @@
             "email": "1224805548@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
