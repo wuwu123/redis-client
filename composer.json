@@ -1,0 +1,21 @@
+{
+    "name": "wujie/redis-client",
+    "description": "redis 链接",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload":{
+        "psr-4": {
+            "wjredis\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wj",
+            "email": "1224805548@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
